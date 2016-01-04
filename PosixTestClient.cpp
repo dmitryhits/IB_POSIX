@@ -67,9 +67,11 @@ void PosixTestClient::processMessages()
 	//for(int i=0;i<1;i++) std::cout << "m_state = " << m_state << std::endl; //DEBUG DAH
 	switch (m_state) {
 		case ST_REQHISTORICALDATA:
+                        std::cout << "ReqHistoricalData" << std::endl; 
 			reqHistoricalData();
 			break;
 		case ST_PLACEORDER:
+                        std::cout << "placeOrder" << std::endl; 
 			placeOrder();
 			break;
 		case ST_PLACEORDER_ACK:
@@ -138,6 +140,7 @@ void PosixTestClient::processMessages()
 		if( FD_ISSET( m_pClient->fd(), &writeSet)) {
 			// socket is ready for writing
 			m_pClient->onSend();
+                        std::cout <<"data sent" <<std::endl;
 		}
 
 		if( m_pClient->fd() < 0)
@@ -146,6 +149,8 @@ void PosixTestClient::processMessages()
 		if( FD_ISSET( m_pClient->fd(), &readSet)) {
 			// socket is ready for reading
 			m_pClient->onReceive();
+                        std::cout <<"data received" <<std::endl;
+                        
 		}
 	}
 }
@@ -251,7 +256,7 @@ void PosixTestClient::orderStatus( OrderId orderId, const IBString &status, int 
 void PosixTestClient::nextValidId( OrderId orderId)
 {
 	m_orderId = orderId;
-
+        std::cout << "OrderId " << m_orderId << std::endl;
 	m_state = ST_PLACEORDER;
 	//m_state = ST_REQHISTORICALDATA;
 
