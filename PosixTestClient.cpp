@@ -149,7 +149,7 @@ void PosixTestClient::processMessages()
 		if( FD_ISSET( m_pClient->fd(), &readSet)) {
 			// socket is ready for reading
 			m_pClient->onReceive();
-                        std::cout <<"data received" <<std::endl;
+                       // std::cout <<"data received" <<std::endl;
                         
 		}
 	}
