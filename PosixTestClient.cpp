@@ -258,7 +258,7 @@ void PosixTestClient::nextValidId( OrderId orderId)
 	m_orderId = orderId;
         m_reqId = m_orderId + 10000000; // let order id's not collide with other request id's
         std::cout << "OrderId " << m_orderId << " : reqId " << m_reqId << std::endl;
-	m_state = ST_PLACEORDER;
+	//m_state = ST_PLACEORDER;
 	//m_state = ST_REQHISTORICALDATA;
 
 }

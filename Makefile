@@ -1,6 +1,7 @@
 CXX=g++
 CXXFLAGS=-DIB_USE_STD_STRING -Wall -Wno-switch
-ROOT_DIR=/Users/hits/projects/IBJts/testPosix/
+ROOT_DIR=/Users/hits/projects/IB/myIB
+#ROOT_DIR=/Users/hits/projects/IBJts/testPosix/
 TEST_DIR=${ROOT_DIR}/
 BASE_SRC_DIR=${ROOT_DIR}/PosixSocketClient/src
 INCLUDES=-I${ROOT_DIR}/Shared/ -I${BASE_SRC_DIR}
