@@ -116,7 +116,7 @@ private:
 	time_t m_sleepDeadline;
 
 	OrderId m_orderId;
-        TickerId m_reqId; // used for all requests except orders; designed not to conflict with m_orderId
+	RequestId m_reqId; // used for all requests except orders; designed not to conflict with m_orderId
 };
 
 #endif

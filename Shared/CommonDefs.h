@@ -6,6 +6,7 @@
 
 typedef long TickerId;
 typedef long OrderId;
+typedef long RequestId;
 
 enum faDataType { GROUPS=1, PROFILES, ALIASES } ;
 
