@@ -35,6 +35,7 @@
 	#include <errno.h>
 	#include <sys/select.h>
 	#include <sys/fcntl.h>
+	#include <unistd.h> //fixes build fail error: use of undeclared identifier 'close' on OSX
 
 	// helpers
 	inline bool SocketsInit() { return true; };

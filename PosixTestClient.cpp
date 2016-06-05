@@ -67,11 +67,15 @@ void PosixTestClient::processMessages()
 	//for(int i=0;i<1;i++) std::cout << "m_state = " << m_state << std::endl; //DEBUG DAH
 	switch (m_state) {
 		case ST_REQHISTORICALDATA:
-                        std::cout << "ReqHistoricalData" << std::endl; 
+			std::cout << "ReqHistoricalData" << std::endl;
 			reqHistoricalData();
 			break;
+		case ST_REQHISTORICALDATA_ACK:
+			//std::cout << "ReqHistoricalDataAck" << std::endl;
+
+			break;
 		case ST_PLACEORDER:
-                        std::cout << "placeOrder" << std::endl; 
+			std::cout << "placeOrder" << std::endl;
 			placeOrder();
 			break;
 		case ST_PLACEORDER_ACK:
@@ -174,6 +178,7 @@ void PosixTestClient::reqMktData()
 }
 void PosixTestClient::reqHistoricalData()
 {
+	std::cout << "Exec reqHistoricalData" << std::endl;
 	TickerId tickerId;
 	Contract contract;
 	IBString endDateTime;
@@ -183,25 +188,25 @@ void PosixTestClient::reqHistoricalData()
 	int useRTH;
 	int formatDate;
 	TagValueListSPtr chartOptions(new TagValueList);
+	std::cout << "Exec reqHistoricalData 1" << std::endl;
 
-
-	tickerId = 333;
-	contract.symbol = "IBM";
+	tickerId = 336;
+	contract.symbol = "BIIB";
 	contract.secType = "STK";
 	contract.exchange = "SMART";
 	contract.currency = "USD";
-	endDateTime = "20151205 00:00:00";
-	durationStr = "200 D";
-	barSizeSetting = "1 day";
-	whatToShow = "MIDPOINT";
+	endDateTime = "20151105 00:00:00";
+	durationStr = "10 D";
+	barSizeSetting = "1 hour";
+	whatToShow = "TRADES";
 	useRTH = 1;
 	formatDate = 1;
 	//chartOptions = new TagValueList;
-
+	std::cout << "Exec reqHistoricalData 2" << std::endl;
 	printf( "Requesting Historical Data %ld: %s", tickerId, contract.symbol.c_str());
 	m_state = ST_REQHISTORICALDATA_ACK;
 	m_pClient->reqHistoricalData(tickerId, contract, endDateTime, durationStr, barSizeSetting, whatToShow, useRTH, formatDate, chartOptions);
-
+	std::cout << "Exec reqHistoricalData 3" << std::endl;
 
 }
 
@@ -259,7 +264,7 @@ void PosixTestClient::nextValidId( OrderId orderId)
 	m_reqId = m_orderId + 10000000; // let order id's not collide with other request id's
 	std::cout << "OrderId " << m_orderId << " : reqId " << m_reqId << std::endl;
 	//m_state = ST_PLACEORDER;
-	//m_state = ST_REQHISTORICALDATA;
+	m_state = ST_REQHISTORICALDATA;
 
 }
 
@@ -279,7 +284,7 @@ void PosixTestClient::currentTime( long time)
 
 void PosixTestClient::error(const int id, const int errorCode, const IBString errorString)
 {
-//	printf( "Error id=%d, errorCode=%d, msg=%s\n", id, errorCode, errorString.c_str());
+	printf( "Error id=%d, errorCode=%d, msg=%s\n", id, errorCode, errorString.c_str());
 
 	if( id == -1 && errorCode == 1100) // if "Connectivity between IB and TWS has been lost"
 		disconnect();
@@ -319,7 +324,9 @@ void PosixTestClient::updateNewsBulletin(int msgId, int msgType, const IBString&
 void PosixTestClient::managedAccounts( const IBString& accountsList) {}
 void PosixTestClient::receiveFA(faDataType pFaDataType, const IBString& cxml) {}
 void PosixTestClient::historicalData(TickerId reqId, const IBString& date, double open, double high,
-									  double low, double close, int volume, int barCount, double WAP, int hasGaps) {}
+									  double low, double close, int volume, int barCount, double WAP, int hasGaps) {
+
+}
 void PosixTestClient::scannerParameters(const IBString &xml) {}
 void PosixTestClient::scannerData(int reqId, int rank, const ContractDetails &contractDetails,
 	   const IBString &distance, const IBString &benchmark, const IBString &projection,

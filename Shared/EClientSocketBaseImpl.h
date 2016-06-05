@@ -24,6 +24,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
+#include <iostream>
 
 /////////////////////////////////////////////////////////////////////////////////
 // SOCKET CLIENT VERSION CHANGE LOG : Incremented when the format of incomming
@@ -2779,6 +2780,7 @@ int EClientSocketBase::processMsg(const char*& beginPtr, const char* endPtr)
 
 		int msgId;
 		DECODE_FIELD( msgId);
+		std::cout << "msgID:" << msgId << std::endl;
 
 		switch( msgId) {
 			case TICK_PRICE:
@@ -3735,8 +3737,8 @@ int EClientSocketBase::processMsg(const char*& beginPtr, const char* endPtr)
 				assert( (int)bars.size() == itemCount);
 
 				for( int ctr = 0; ctr < itemCount; ++ctr) {
-
 					const BarData& bar = bars[ctr];
+					std::cout << reqId <<" date: " <<  bar.date << " open: " <<bar.open << " high: "<< bar.high << " low: " << bar.low << " close: " << bar.close << " volume: "  <<bar.volume << " count: " << bar.barCount << " average: " << bar.average <<std::endl;
 					m_pEWrapper->historicalData( reqId, bar.date, bar.open, bar.high, bar.low,
 						bar.close, bar.volume, bar.barCount, bar.average,
 						Compare(bar.hasGaps, "true") == 0);
