@@ -13,10 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="832e0459-0f9d-4284-8e05-cba15271bc8f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocketPlatform.h" afterPath="$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocketPlatform.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PosixTestClient.cpp" afterPath="$PROJECT_DIR$/PosixTestClient.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PosixTestClient.h" afterPath="$PROJECT_DIR$/PosixTestClient.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/EClientSocketBaseImpl.h" afterPath="$PROJECT_DIR$/Shared/EClientSocketBaseImpl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IB_POSIX.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,18 +34,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PosixTestClient.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PosixTestClient.cpp">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51263535">
-              <caret line="192" column="18" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
-              <folding>
-                <element signature="e#4939#5464#0" expanded="false" />
-                <element signature="e#5466#5622#0" expanded="false" />
-                <element signature="e#5624#6229#0" expanded="false" />
-                <element signature="e#6231#6535#0" expanded="false" />
-                <element signature="e#6537#6853#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,34 +54,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PosixTestClient.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PosixTestClient.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-71.333336">
+              <caret line="325" column="22" selection-start-line="325" selection-start-column="22" selection-end-line="325" selection-end-column="22" />
+              <folding>
+                <element signature="e#3545#3852#0" expanded="false" />
+                <element signature="e#3893#4937#0" expanded="false" />
+                <element signature="e#4939#5464#0" expanded="false" />
+                <element signature="e#5466#5622#0" expanded="false" />
+                <element signature="e#5624#6229#0" expanded="false" />
+                <element signature="e#6231#6535#0" expanded="false" />
+                <element signature="e#6537#6853#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PosixTestClient.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PosixTestClient.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state vertical-scroll-proportion="-38.037037">
+              <caret line="87" column="13" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EPosixClientSocketPlatform.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocketPlatform.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="93" selection-start-line="37" selection-start-column="93" selection-end-line="37" selection-end-column="93" />
-              <folding>
-                <element signature="e#893#915#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -98,18 +85,18 @@
       <file leaf-file-name="EClient.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shared/EClient.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+            <state vertical-scroll-proportion="-10.259259">
+              <caret line="49" column="25" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EWrapper.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EWrapper.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Shared/EWrapper.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+            <state vertical-scroll-proportion="1.1190765">
+              <caret line="114" column="22" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -119,11 +106,21 @@
         <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocket.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="27" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="27" />
+              <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
               <folding>
                 <element signature="e#210#241#0" expanded="true" />
+                <element signature="e#583#2451#0" expanded="false" />
+                <element signature="e#2453#2652#0" expanded="false" />
+                <element signature="e#2654#2723#0" expanded="false" />
+                <element signature="e#2725#2777#0" expanded="false" />
+                <element signature="e#2779#3024#0" expanded="false" />
+                <element signature="e#3026#3268#0" expanded="false" />
                 <element signature="e#3356#3452#0" expanded="false" />
+                <element signature="e#3454#3550#0" expanded="false" />
                 <element signature="e#3552#3648#0" expanded="false" />
+                <element signature="e#3650#3777#0" expanded="false" />
+                <element signature="e#3779#3839#0" expanded="false" />
+                <element signature="e#3841#4413#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -132,8 +129,8 @@
       <file leaf-file-name="EClientSocketBaseImpl.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shared/EClientSocketBaseImpl.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="757" column="24" selection-start-line="757" selection-start-column="24" selection-end-line="757" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.8518519">
+              <caret line="3700" column="21" selection-start-line="3700" selection-start-column="17" selection-end-line="3700" selection-end-column="21" />
               <folding>
                 <element signature="e#16395#16668#0" expanded="false" />
                 <element signature="e#16815#17246#0" expanded="false" />
@@ -145,6 +142,8 @@
                 <element signature="e#21945#22327#0" expanded="false" />
                 <element signature="e#22329#24438#0" expanded="false" />
                 <element signature="e#24441#25042#0" expanded="false" />
+                <element signature="e#25044#28056#0" expanded="false" />
+                <element signature="e#28058#28650#0" expanded="false" />
                 <element signature="e#28652#30929#0" expanded="false" />
                 <element signature="e#30932#31550#0" expanded="false" />
                 <element signature="e#31553#32095#0" expanded="false" />
@@ -160,11 +159,11 @@
                 <element signature="e#42967#43583#0" expanded="false" />
                 <element signature="e#43585#62292#0" expanded="false" />
                 <element signature="e#62294#62650#0" expanded="false" />
-                <element signature="e#62652#63211#0" expanded="false" />
                 <element signature="e#63213#63555#0" expanded="false" />
                 <element signature="e#63557#63949#0" expanded="false" />
                 <element signature="e#63951#64300#0" expanded="false" />
                 <element signature="e#64302#65139#0" expanded="false" />
+                <element signature="e#65141#65498#0" expanded="false" />
                 <element signature="e#65500#65888#0" expanded="false" />
                 <element signature="e#65890#66247#0" expanded="false" />
                 <element signature="e#66249#66654#0" expanded="false" />
@@ -189,6 +188,7 @@
                 <element signature="e#76555#77163#0" expanded="false" />
                 <element signature="e#77165#77495#0" expanded="false" />
                 <element signature="e#77497#78070#0" expanded="false" />
+                <element signature="e#78072#78625#0" expanded="false" />
                 <element signature="e#78627#79923#0" expanded="false" />
                 <element signature="e#114507#114575#0" expanded="false" />
                 <element signature="e#114577#114650#0" expanded="false" />
@@ -302,7 +302,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PosixSocketClient" />
+              <option name="myItemId" value="Shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,7 +408,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1413" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25206774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -416,10 +416,10 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.51713276" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.47656557" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329296" sideWeight="0.48286727" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.48286727" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.335352" sideWeight="0.49704608" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.335352" sideWeight="0.49704608" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -450,23 +450,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocket.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="170" column="12" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="17" />
-          <folding>
-            <element signature="e#210#241#0" expanded="true" />
-            <element signature="e#3356#3452#0" expanded="false" />
-            <element signature="e#3552#3648#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shared/EClient.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -490,6 +478,8 @@
             <element signature="e#21945#22327#0" expanded="false" />
             <element signature="e#22329#24438#0" expanded="false" />
             <element signature="e#24441#25042#0" expanded="false" />
+            <element signature="e#25044#28056#0" expanded="false" />
+            <element signature="e#28058#28650#0" expanded="false" />
             <element signature="e#28652#30929#0" expanded="false" />
             <element signature="e#30932#31550#0" expanded="false" />
             <element signature="e#31553#32095#0" expanded="false" />
@@ -505,11 +495,11 @@
             <element signature="e#42967#43583#0" expanded="false" />
             <element signature="e#43585#62292#0" expanded="false" />
             <element signature="e#62294#62650#0" expanded="false" />
-            <element signature="e#62652#63211#0" expanded="false" />
             <element signature="e#63213#63555#0" expanded="false" />
             <element signature="e#63557#63949#0" expanded="false" />
             <element signature="e#63951#64300#0" expanded="false" />
             <element signature="e#64302#65139#0" expanded="false" />
+            <element signature="e#65141#65498#0" expanded="false" />
             <element signature="e#65500#65888#0" expanded="false" />
             <element signature="e#65890#66247#0" expanded="false" />
             <element signature="e#66249#66654#0" expanded="false" />
@@ -534,6 +524,7 @@
             <element signature="e#76555#77163#0" expanded="false" />
             <element signature="e#77165#77495#0" expanded="false" />
             <element signature="e#77497#78070#0" expanded="false" />
+            <element signature="e#78072#78625#0" expanded="false" />
             <element signature="e#78627#79923#0" expanded="false" />
             <element signature="e#114507#114575#0" expanded="false" />
             <element signature="e#114577#114650#0" expanded="false" />
@@ -568,6 +559,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#3545#3852#0" expanded="false" />
+            <element signature="e#3893#4937#0" expanded="false" />
             <element signature="e#4939#5464#0" expanded="false" />
             <element signature="e#5466#5622#0" expanded="false" />
             <element signature="e#5624#6229#0" expanded="false" />
@@ -621,8 +614,18 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#210#241#0" expanded="true" />
+            <element signature="e#583#2451#0" expanded="false" />
+            <element signature="e#2453#2652#0" expanded="false" />
+            <element signature="e#2654#2723#0" expanded="false" />
+            <element signature="e#2725#2777#0" expanded="false" />
+            <element signature="e#2779#3024#0" expanded="false" />
+            <element signature="e#3026#3268#0" expanded="false" />
             <element signature="e#3356#3452#0" expanded="false" />
+            <element signature="e#3454#3550#0" expanded="false" />
             <element signature="e#3552#3648#0" expanded="false" />
+            <element signature="e#3650#3777#0" expanded="false" />
+            <element signature="e#3779#3839#0" expanded="false" />
+            <element signature="e#3841#4413#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,6 +652,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#3545#3852#0" expanded="false" />
+            <element signature="e#3893#4937#0" expanded="false" />
             <element signature="e#4939#5464#0" expanded="false" />
             <element signature="e#5466#5622#0" expanded="false" />
             <element signature="e#5624#6229#0" expanded="false" />
@@ -702,8 +707,18 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#210#241#0" expanded="true" />
+            <element signature="e#583#2451#0" expanded="false" />
+            <element signature="e#2453#2652#0" expanded="false" />
+            <element signature="e#2654#2723#0" expanded="false" />
+            <element signature="e#2725#2777#0" expanded="false" />
+            <element signature="e#2779#3024#0" expanded="false" />
+            <element signature="e#3026#3268#0" expanded="false" />
             <element signature="e#3356#3452#0" expanded="false" />
+            <element signature="e#3454#3550#0" expanded="false" />
             <element signature="e#3552#3648#0" expanded="false" />
+            <element signature="e#3650#3777#0" expanded="false" />
+            <element signature="e#3779#3839#0" expanded="false" />
+            <element signature="e#3841#4413#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -761,8 +776,18 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#210#241#0" expanded="true" />
+            <element signature="e#583#2451#0" expanded="false" />
+            <element signature="e#2453#2652#0" expanded="false" />
+            <element signature="e#2654#2723#0" expanded="false" />
+            <element signature="e#2725#2777#0" expanded="false" />
+            <element signature="e#2779#3024#0" expanded="false" />
+            <element signature="e#3026#3268#0" expanded="false" />
             <element signature="e#3356#3452#0" expanded="false" />
+            <element signature="e#3454#3550#0" expanded="false" />
             <element signature="e#3552#3648#0" expanded="false" />
+            <element signature="e#3650#3777#0" expanded="false" />
+            <element signature="e#3779#3839#0" expanded="false" />
+            <element signature="e#3841#4413#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -789,6 +814,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#3545#3852#0" expanded="false" />
+            <element signature="e#3893#4937#0" expanded="false" />
             <element signature="e#4939#5464#0" expanded="false" />
             <element signature="e#5466#5622#0" expanded="false" />
             <element signature="e#5624#6229#0" expanded="false" />
@@ -886,38 +913,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocket.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="27" />
-          <folding>
-            <element signature="e#210#241#0" expanded="true" />
-            <element signature="e#3356#3452#0" expanded="false" />
-            <element signature="e#3552#3648#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/EWrapper.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/IBString.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -930,26 +937,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PosixTestClient.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/EClient.h">
+    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocket.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-          <folding />
+          <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding>
+            <element signature="e#210#241#0" expanded="true" />
+            <element signature="e#583#2451#0" expanded="false" />
+            <element signature="e#2453#2652#0" expanded="false" />
+            <element signature="e#2654#2723#0" expanded="false" />
+            <element signature="e#2725#2777#0" expanded="false" />
+            <element signature="e#2779#3024#0" expanded="false" />
+            <element signature="e#3026#3268#0" expanded="false" />
+            <element signature="e#3356#3452#0" expanded="false" />
+            <element signature="e#3454#3550#0" expanded="false" />
+            <element signature="e#3552#3648#0" expanded="false" />
+            <element signature="e#3650#3777#0" expanded="false" />
+            <element signature="e#3779#3839#0" expanded="false" />
+            <element signature="e#3841#4413#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shared/EClientSocketBaseImpl.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="757" column="24" selection-start-line="757" selection-start-column="24" selection-end-line="757" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.8518519">
+          <caret line="3700" column="21" selection-start-line="3700" selection-start-column="17" selection-end-line="3700" selection-end-column="21" />
           <folding>
             <element signature="e#16395#16668#0" expanded="false" />
             <element signature="e#16815#17246#0" expanded="false" />
@@ -961,6 +982,8 @@
             <element signature="e#21945#22327#0" expanded="false" />
             <element signature="e#22329#24438#0" expanded="false" />
             <element signature="e#24441#25042#0" expanded="false" />
+            <element signature="e#25044#28056#0" expanded="false" />
+            <element signature="e#28058#28650#0" expanded="false" />
             <element signature="e#28652#30929#0" expanded="false" />
             <element signature="e#30932#31550#0" expanded="false" />
             <element signature="e#31553#32095#0" expanded="false" />
@@ -976,11 +999,11 @@
             <element signature="e#42967#43583#0" expanded="false" />
             <element signature="e#43585#62292#0" expanded="false" />
             <element signature="e#62294#62650#0" expanded="false" />
-            <element signature="e#62652#63211#0" expanded="false" />
             <element signature="e#63213#63555#0" expanded="false" />
             <element signature="e#63557#63949#0" expanded="false" />
             <element signature="e#63951#64300#0" expanded="false" />
             <element signature="e#64302#65139#0" expanded="false" />
+            <element signature="e#65141#65498#0" expanded="false" />
             <element signature="e#65500#65888#0" expanded="false" />
             <element signature="e#65890#66247#0" expanded="false" />
             <element signature="e#66249#66654#0" expanded="false" />
@@ -1005,6 +1028,7 @@
             <element signature="e#76555#77163#0" expanded="false" />
             <element signature="e#77165#77495#0" expanded="false" />
             <element signature="e#77497#78070#0" expanded="false" />
+            <element signature="e#78072#78625#0" expanded="false" />
             <element signature="e#78627#79923#0" expanded="false" />
             <element signature="e#114507#114575#0" expanded="false" />
             <element signature="e#114577#114650#0" expanded="false" />
@@ -1019,15 +1043,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PosixTestClient.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51263535">
-          <caret line="192" column="18" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+        <state vertical-scroll-proportion="-71.333336">
+          <caret line="325" column="22" selection-start-line="325" selection-start-column="22" selection-end-line="325" selection-end-column="22" />
           <folding>
+            <element signature="e#3545#3852#0" expanded="false" />
+            <element signature="e#3893#4937#0" expanded="false" />
             <element signature="e#4939#5464#0" expanded="false" />
             <element signature="e#5466#5622#0" expanded="false" />
             <element signature="e#5624#6229#0" expanded="false" />
             <element signature="e#6231#6535#0" expanded="false" />
             <element signature="e#6537#6853#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/EClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.259259">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixTestClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-38.037037">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/EWrapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1190765">
+          <caret line="114" column="22" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
