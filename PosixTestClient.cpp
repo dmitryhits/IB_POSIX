@@ -325,7 +325,8 @@ void PosixTestClient::managedAccounts( const IBString& accountsList) {}
 void PosixTestClient::receiveFA(faDataType pFaDataType, const IBString& cxml) {}
 void PosixTestClient::historicalData(TickerId reqId, const IBString& date, double open, double high,
 									  double low, double close, int volume, int barCount, double WAP, int hasGaps) {
-
+	std::string gaps = hasGaps?"TRUE":"FLASE";
+	std::cout << reqId <<" date: " <<  date << " open: " << open << " high: "<< high << " low: " << low << " close: " << close << " volume: "  << volume << " count: " << barCount << " average: " << WAP << " has gaps: " << gaps <<std::endl;
 }
 void PosixTestClient::scannerParameters(const IBString &xml) {}
 void PosixTestClient::scannerData(int reqId, int rank, const ContractDetails &contractDetails,

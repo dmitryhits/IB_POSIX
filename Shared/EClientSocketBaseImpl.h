@@ -3738,7 +3738,6 @@ int EClientSocketBase::processMsg(const char*& beginPtr, const char* endPtr)
 
 				for( int ctr = 0; ctr < itemCount; ++ctr) {
 					const BarData& bar = bars[ctr];
-					std::cout << reqId <<" date: " <<  bar.date << " open: " <<bar.open << " high: "<< bar.high << " low: " << bar.low << " close: " << bar.close << " volume: "  <<bar.volume << " count: " << bar.barCount << " average: " << bar.average <<std::endl;
 					m_pEWrapper->historicalData( reqId, bar.date, bar.open, bar.high, bar.low,
 						bar.close, bar.volume, bar.barCount, bar.average,
 						Compare(bar.hasGaps, "true") == 0);
