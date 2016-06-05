@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="testPosix" targetName="testPosix" />
+      <config projectName="IB_POSIX" targetName="testIB" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="832e0459-0f9d-4284-8e05-cba15271bc8f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocketPlatform.h" afterPath="$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocketPlatform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PosixTestClient.cpp" afterPath="$PROJECT_DIR$/PosixTestClient.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PosixTestClient.h" afterPath="$PROJECT_DIR$/PosixTestClient.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/EClientSocketBaseImpl.h" afterPath="$PROJECT_DIR$/Shared/EClientSocketBaseImpl.h" />
+    </list>
+    <ignored path="IB_POSIX.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="IB_POSIX" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PosixTestClient.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PosixTestClient.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.51263535">
+              <caret line="192" column="18" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+              <folding>
+                <element signature="e#4939#5464#0" expanded="false" />
+                <element signature="e#5466#5622#0" expanded="false" />
+                <element signature="e#5624#6229#0" expanded="false" />
+                <element signature="e#6231#6535#0" expanded="false" />
+                <element signature="e#6537#6853#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PosixTestClient.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PosixTestClient.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EPosixClientSocketPlatform.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocketPlatform.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="93" selection-start-line="37" selection-start-column="93" selection-end-line="37" selection-end-column="93" />
+              <folding>
+                <element signature="e#893#915#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EClient.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shared/EClient.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EWrapper.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shared/EWrapper.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EPosixClientSocket.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocket.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="27" />
+              <folding>
+                <element signature="e#210#241#0" expanded="true" />
+                <element signature="e#3356#3452#0" expanded="false" />
+                <element signature="e#3552#3648#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EClientSocketBaseImpl.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shared/EClientSocketBaseImpl.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="757" column="24" selection-start-line="757" selection-start-column="24" selection-end-line="757" selection-end-column="24" />
+              <folding>
+                <element signature="e#16395#16668#0" expanded="false" />
+                <element signature="e#16815#17246#0" expanded="false" />
+                <element signature="e#17249#17450#0" expanded="false" />
+                <element signature="e#17978#18169#0" expanded="false" />
+                <element signature="e#18171#18238#0" expanded="false" />
+                <element signature="e#18240#18310#0" expanded="false" />
+                <element signature="e#18312#21943#0" expanded="false" />
+                <element signature="e#21945#22327#0" expanded="false" />
+                <element signature="e#22329#24438#0" expanded="false" />
+                <element signature="e#24441#25042#0" expanded="false" />
+                <element signature="e#28652#30929#0" expanded="false" />
+                <element signature="e#30932#31550#0" expanded="false" />
+                <element signature="e#31553#32095#0" expanded="false" />
+                <element signature="e#32098#34520#0" expanded="false" />
+                <element signature="e#34522#35108#0" expanded="false" />
+                <element signature="e#35110#36335#0" expanded="false" />
+                <element signature="e#36337#36899#0" expanded="false" />
+                <element signature="e#36901#38384#0" expanded="false" />
+                <element signature="e#38386#38986#0" expanded="false" />
+                <element signature="e#38988#40449#0" expanded="false" />
+                <element signature="e#40451#41037#0" expanded="false" />
+                <element signature="e#41039#42965#0" expanded="false" />
+                <element signature="e#42967#43583#0" expanded="false" />
+                <element signature="e#43585#62292#0" expanded="false" />
+                <element signature="e#62294#62650#0" expanded="false" />
+                <element signature="e#62652#63211#0" expanded="false" />
+                <element signature="e#63213#63555#0" expanded="false" />
+                <element signature="e#63557#63949#0" expanded="false" />
+                <element signature="e#63951#64300#0" expanded="false" />
+                <element signature="e#64302#65139#0" expanded="false" />
+                <element signature="e#65500#65888#0" expanded="false" />
+                <element signature="e#65890#66247#0" expanded="false" />
+                <element signature="e#66249#66654#0" expanded="false" />
+                <element signature="e#66656#67010#0" expanded="false" />
+                <element signature="e#67013#67527#0" expanded="false" />
+                <element signature="e#67529#68091#0" expanded="false" />
+                <element signature="e#68095#69744#0" expanded="false" />
+                <element signature="e#69746#70287#0" expanded="false" />
+                <element signature="e#70289#70866#0" expanded="false" />
+                <element signature="e#70868#71109#0" expanded="false" />
+                <element signature="e#71111#71504#0" expanded="false" />
+                <element signature="e#71506#71616#0" expanded="false" />
+                <element signature="e#71618#71829#0" expanded="false" />
+                <element signature="e#71831#72326#0" expanded="false" />
+                <element signature="e#72328#72834#0" expanded="false" />
+                <element signature="e#72836#73485#0" expanded="false" />
+                <element signature="e#73487#74049#0" expanded="false" />
+                <element signature="e#74051#74846#0" expanded="false" />
+                <element signature="e#74848#75402#0" expanded="false" />
+                <element signature="e#75404#75952#0" expanded="false" />
+                <element signature="e#75954#76553#0" expanded="false" />
+                <element signature="e#76555#77163#0" expanded="false" />
+                <element signature="e#77165#77495#0" expanded="false" />
+                <element signature="e#77497#78070#0" expanded="false" />
+                <element signature="e#78627#79923#0" expanded="false" />
+                <element signature="e#114507#114575#0" expanded="false" />
+                <element signature="e#114577#114650#0" expanded="false" />
+                <element signature="e#114652#114730#0" expanded="false" />
+                <element signature="e#114732#114815#0" expanded="false" />
+                <element signature="e#114818#115054#0" expanded="false" />
+                <element signature="e#115056#115135#0" expanded="false" />
+                <element signature="e#115137#115218#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EClientSocketBase.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shared/EClientSocketBase.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Dmitry H" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Main.cpp" />
+        <option value="$PROJECT_DIR$/Shared/CommonDefs.h" />
+        <option value="$PROJECT_DIR$/PosixTestClient.h" />
+        <option value="$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocketPlatform.h" />
+        <option value="$PROJECT_DIR$/Shared/EClientSocketBaseImpl.h" />
+        <option value="$PROJECT_DIR$/PosixTestClient.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="2560" />
+    <option name="height" value="1413" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB_POSIX" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB_POSIX" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB_POSIX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB_POSIX" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB_POSIX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PosixSocketClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="427" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="436" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="441" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1226" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="427" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="436" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="441" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1226" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.testIB">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="IB_POSIX" TARGET_NAME="testIB" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="testPosix" TARGET_NAME="testPosix" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="testPosix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="testPosix" TARGET_NAME="testPosix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testPosix" RUN_TARGET_NAME="testPosix">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="testIB" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="IB_POSIX" TARGET_NAME="testIB" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="IB_POSIX" RUN_TARGET_NAME="testIB">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="IB_POSIX" TARGET_NAME="testIB" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="IB_POSIX" RUN_TARGET_NAME="testIB">
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.testPosix" />
+      <item index="1" class="java.lang.String" itemvalue="Application.testIB" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Build All" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="832e0459-0f9d-4284-8e05-cba15271bc8f" name="Default" comment="" />
+      <created>1456681984837</created>
+      <option name="number" value="Default" />
+      <updated>1456681984837</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Removed the cout statement">
+      <created>1456738244307</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1456738244307</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding new type RequestId">
+      <created>1456957354357</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1456957354357</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="2560" height="1413" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25206774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.48129186" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.51713276" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.47656557" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329296" sideWeight="0.48286727" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.335352" sideWeight="0.49704608" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Converting to Cmake project" />
+    <MESSAGE value="Removed the cout statement" />
+    <MESSAGE value="Adding new type RequestId" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding new type RequestId" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocket.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="170" column="12" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="17" />
+          <folding>
+            <element signature="e#210#241#0" expanded="true" />
+            <element signature="e#3356#3452#0" expanded="false" />
+            <element signature="e#3552#3648#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/EClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/EClientSocketBaseImpl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#16395#16668#0" expanded="false" />
+            <element signature="e#16815#17246#0" expanded="false" />
+            <element signature="e#17249#17450#0" expanded="false" />
+            <element signature="e#17978#18169#0" expanded="false" />
+            <element signature="e#18171#18238#0" expanded="false" />
+            <element signature="e#18240#18310#0" expanded="false" />
+            <element signature="e#18312#21943#0" expanded="false" />
+            <element signature="e#21945#22327#0" expanded="false" />
+            <element signature="e#22329#24438#0" expanded="false" />
+            <element signature="e#24441#25042#0" expanded="false" />
+            <element signature="e#28652#30929#0" expanded="false" />
+            <element signature="e#30932#31550#0" expanded="false" />
+            <element signature="e#31553#32095#0" expanded="false" />
+            <element signature="e#32098#34520#0" expanded="false" />
+            <element signature="e#34522#35108#0" expanded="false" />
+            <element signature="e#35110#36335#0" expanded="false" />
+            <element signature="e#36337#36899#0" expanded="false" />
+            <element signature="e#36901#38384#0" expanded="false" />
+            <element signature="e#38386#38986#0" expanded="false" />
+            <element signature="e#38988#40449#0" expanded="false" />
+            <element signature="e#40451#41037#0" expanded="false" />
+            <element signature="e#41039#42965#0" expanded="false" />
+            <element signature="e#42967#43583#0" expanded="false" />
+            <element signature="e#43585#62292#0" expanded="false" />
+            <element signature="e#62294#62650#0" expanded="false" />
+            <element signature="e#62652#63211#0" expanded="false" />
+            <element signature="e#63213#63555#0" expanded="false" />
+            <element signature="e#63557#63949#0" expanded="false" />
+            <element signature="e#63951#64300#0" expanded="false" />
+            <element signature="e#64302#65139#0" expanded="false" />
+            <element signature="e#65500#65888#0" expanded="false" />
+            <element signature="e#65890#66247#0" expanded="false" />
+            <element signature="e#66249#66654#0" expanded="false" />
+            <element signature="e#66656#67010#0" expanded="false" />
+            <element signature="e#67013#67527#0" expanded="false" />
+            <element signature="e#67529#68091#0" expanded="false" />
+            <element signature="e#68095#69744#0" expanded="false" />
+            <element signature="e#69746#70287#0" expanded="false" />
+            <element signature="e#70289#70866#0" expanded="false" />
+            <element signature="e#70868#71109#0" expanded="false" />
+            <element signature="e#71111#71504#0" expanded="false" />
+            <element signature="e#71506#71616#0" expanded="false" />
+            <element signature="e#71618#71829#0" expanded="false" />
+            <element signature="e#71831#72326#0" expanded="false" />
+            <element signature="e#72328#72834#0" expanded="false" />
+            <element signature="e#72836#73485#0" expanded="false" />
+            <element signature="e#73487#74049#0" expanded="false" />
+            <element signature="e#74051#74846#0" expanded="false" />
+            <element signature="e#74848#75402#0" expanded="false" />
+            <element signature="e#75404#75952#0" expanded="false" />
+            <element signature="e#75954#76553#0" expanded="false" />
+            <element signature="e#76555#77163#0" expanded="false" />
+            <element signature="e#77165#77495#0" expanded="false" />
+            <element signature="e#77497#78070#0" expanded="false" />
+            <element signature="e#78627#79923#0" expanded="false" />
+            <element signature="e#114507#114575#0" expanded="false" />
+            <element signature="e#114577#114650#0" expanded="false" />
+            <element signature="e#114652#114730#0" expanded="false" />
+            <element signature="e#114732#114815#0" expanded="false" />
+            <element signature="e#114818#115054#0" expanded="false" />
+            <element signature="e#115056#115135#0" expanded="false" />
+            <element signature="e#115137#115218#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/CommonDefs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <marker date="1456957173000" expanded="true" signature="0:208" placeholder="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixTestClient.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#4939#5464#0" expanded="false" />
+            <element signature="e#5466#5622#0" expanded="false" />
+            <element signature="e#5624#6229#0" expanded="false" />
+            <element signature="e#6231#6535#0" expanded="false" />
+            <element signature="e#6537#6853#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixTestClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/Order.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/EWrapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EClientSocketBase.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="28" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocket.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#210#241#0" expanded="true" />
+            <element signature="e#3356#3452#0" expanded="false" />
+            <element signature="e#3552#3648#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixTestClient.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#4939#5464#0" expanded="false" />
+            <element signature="e#5466#5622#0" expanded="false" />
+            <element signature="e#5624#6229#0" expanded="false" />
+            <element signature="e#6231#6535#0" expanded="false" />
+            <element signature="e#6537#6853#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixTestClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/Order.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/EWrapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EClientSocketBase.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="28" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocket.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#210#241#0" expanded="true" />
+            <element signature="e#3356#3452#0" expanded="false" />
+            <element signature="e#3552#3648#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/HScrollListBox.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/HScrollListBox.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/EWrapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EClientSocketBase.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocket.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#210#241#0" expanded="true" />
+            <element signature="e#3356#3452#0" expanded="false" />
+            <element signature="e#3552#3648#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixTestClient.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#4939#5464#0" expanded="false" />
+            <element signature="e#5466#5622#0" expanded="false" />
+            <element signature="e#5624#6229#0" expanded="false" />
+            <element signature="e#6231#6535#0" expanded="false" />
+            <element signature="e#6537#6853#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/Execution.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/HScrollListBox.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/HScrollListBox.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/Order.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="28" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/shared_ptr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/CommonDefs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <marker date="1456957173000" expanded="true" signature="0:208" placeholder="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EClientSocketBase.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocket.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocketPlatform.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="93" selection-start-line="37" selection-start-column="93" selection-end-line="37" selection-end-column="93" />
+          <folding>
+            <element signature="e#893#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixSocketClient/src/EPosixClientSocket.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="e#210#241#0" expanded="true" />
+            <element signature="e#3356#3452#0" expanded="false" />
+            <element signature="e#3552#3648#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/EWrapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/EClientSocketBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixTestClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/EClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/EClientSocketBaseImpl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="757" column="24" selection-start-line="757" selection-start-column="24" selection-end-line="757" selection-end-column="24" />
+          <folding>
+            <element signature="e#16395#16668#0" expanded="false" />
+            <element signature="e#16815#17246#0" expanded="false" />
+            <element signature="e#17249#17450#0" expanded="false" />
+            <element signature="e#17978#18169#0" expanded="false" />
+            <element signature="e#18171#18238#0" expanded="false" />
+            <element signature="e#18240#18310#0" expanded="false" />
+            <element signature="e#18312#21943#0" expanded="false" />
+            <element signature="e#21945#22327#0" expanded="false" />
+            <element signature="e#22329#24438#0" expanded="false" />
+            <element signature="e#24441#25042#0" expanded="false" />
+            <element signature="e#28652#30929#0" expanded="false" />
+            <element signature="e#30932#31550#0" expanded="false" />
+            <element signature="e#31553#32095#0" expanded="false" />
+            <element signature="e#32098#34520#0" expanded="false" />
+            <element signature="e#34522#35108#0" expanded="false" />
+            <element signature="e#35110#36335#0" expanded="false" />
+            <element signature="e#36337#36899#0" expanded="false" />
+            <element signature="e#36901#38384#0" expanded="false" />
+            <element signature="e#38386#38986#0" expanded="false" />
+            <element signature="e#38988#40449#0" expanded="false" />
+            <element signature="e#40451#41037#0" expanded="false" />
+            <element signature="e#41039#42965#0" expanded="false" />
+            <element signature="e#42967#43583#0" expanded="false" />
+            <element signature="e#43585#62292#0" expanded="false" />
+            <element signature="e#62294#62650#0" expanded="false" />
+            <element signature="e#62652#63211#0" expanded="false" />
+            <element signature="e#63213#63555#0" expanded="false" />
+            <element signature="e#63557#63949#0" expanded="false" />
+            <element signature="e#63951#64300#0" expanded="false" />
+            <element signature="e#64302#65139#0" expanded="false" />
+            <element signature="e#65500#65888#0" expanded="false" />
+            <element signature="e#65890#66247#0" expanded="false" />
+            <element signature="e#66249#66654#0" expanded="false" />
+            <element signature="e#66656#67010#0" expanded="false" />
+            <element signature="e#67013#67527#0" expanded="false" />
+            <element signature="e#67529#68091#0" expanded="false" />
+            <element signature="e#68095#69744#0" expanded="false" />
+            <element signature="e#69746#70287#0" expanded="false" />
+            <element signature="e#70289#70866#0" expanded="false" />
+            <element signature="e#70868#71109#0" expanded="false" />
+            <element signature="e#71111#71504#0" expanded="false" />
+            <element signature="e#71506#71616#0" expanded="false" />
+            <element signature="e#71618#71829#0" expanded="false" />
+            <element signature="e#71831#72326#0" expanded="false" />
+            <element signature="e#72328#72834#0" expanded="false" />
+            <element signature="e#72836#73485#0" expanded="false" />
+            <element signature="e#73487#74049#0" expanded="false" />
+            <element signature="e#74051#74846#0" expanded="false" />
+            <element signature="e#74848#75402#0" expanded="false" />
+            <element signature="e#75404#75952#0" expanded="false" />
+            <element signature="e#75954#76553#0" expanded="false" />
+            <element signature="e#76555#77163#0" expanded="false" />
+            <element signature="e#77165#77495#0" expanded="false" />
+            <element signature="e#77497#78070#0" expanded="false" />
+            <element signature="e#78627#79923#0" expanded="false" />
+            <element signature="e#114507#114575#0" expanded="false" />
+            <element signature="e#114577#114650#0" expanded="false" />
+            <element signature="e#114652#114730#0" expanded="false" />
+            <element signature="e#114732#114815#0" expanded="false" />
+            <element signature="e#114818#115054#0" expanded="false" />
+            <element signature="e#115056#115135#0" expanded="false" />
+            <element signature="e#115137#115218#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PosixTestClient.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51263535">
+          <caret line="192" column="18" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+          <folding>
+            <element signature="e#4939#5464#0" expanded="false" />
+            <element signature="e#5466#5622#0" expanded="false" />
+            <element signature="e#5624#6229#0" expanded="false" />
+            <element signature="e#6231#6535#0" expanded="false" />
+            <element signature="e#6537#6853#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
